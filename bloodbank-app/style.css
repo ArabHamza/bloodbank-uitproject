@@ -1,0 +1,76 @@
+* {box-sizing: border-box;}
+	
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+#site-header {
+	background-color: #613fb1;
+	color: #fff;
+	padding: 15px 0;
+}
+.clear::after {
+    display: table;
+    clear: both;
+    content: '';
+}
+#site-logo {
+	margin: 0;
+	line-height: 50px;
+}
+.button {
+	display: inline-block;
+	padding: 10px;
+	background-color: #ccc;
+	border: 1px solid #ccc;
+	color: #000;
+	border-radius: 5px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.purple-button {background-color: #613fb1;border-color: #613fb1;color: #fff;}
+
+#signup-form {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+label {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type=text],input[type=password],input[type=email], select {
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 5px;
+	max-width: 100%;
+	width: 100%;
+	height: 35px;
+}
+
+.form-inline label {display: inline-block;margin-bottom: 0;}
+
+
+.content {
+	padding: 50px 0;
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.usercard {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	
+}
+.usercard strong { text-transform: capitalize; }
